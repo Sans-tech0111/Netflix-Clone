@@ -1,0 +1,261 @@
+* {
+  color: white;
+}
+body {
+  font-family: sans-serif;
+  background: url("https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg") repeat-x;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  /* background-repeat: no-repeat; */
+  background-size: 100rem 40rem;
+  overflow-x: hidden;
+}
+
+.netflix {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  background-color: rgba(0, 0, 0, 50%);
+}
+.netflix_logo {
+  display: flex;
+  width: 160px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  margin-left: 50px;
+}
+
+.netflix_signin {
+  display: flex;
+  width: 230px;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.dropdown_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 60%;
+  background-color: rgba(0, 0, 0, 50%);
+  border-radius: 2px;
+  border: 1px solid white;
+}
+
+#Language {
+  
+  font-size: 15px;
+  background: transparent;
+  padding-left: 3px;
+  border: none;
+  outline: none;
+}
+
+#logo {
+  height: 6rem;
+  width: 10rem;
+  background: transparent;
+}
+
+#signin {
+  background-color: red;
+  border: none;
+  border-radius: 2px;
+  width: 90px;
+  height: 60%;
+  font-size: 16px;
+  
+}
+
+.main_content {
+  background-color: rgba(0, 0, 0, 50%);
+  width: 100%;
+  height: 34.7rem;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.main_text {
+  padding-top: 150px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+ 
+}
+#text1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#text2 {
+  font-size: 20px;
+}
+
+#text3 {
+  font-size: 10px;
+}
+
+.get_started {
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+  align-content: center;
+  height: 50px;
+}
+#email_address {
+  width: 480px;
+  color: black;
+  font-size: 20px;
+  padding-left: 20px;
+  border-radius: 1px;
+  border: 1px solid gray;
+  outline: none;
+}
+#button_get_started {
+  width: 170px;
+  background-color: red;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 1px;
+}
+
+.information{
+  background-color: #212121;
+  width:100vw ;
+  height: 300vh;
+  padding-top: 10px;
+}
+
+.tv_design{
+  display: flex;
+  background-color: black;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tv_text{
+  width: 40%;
+  align-items: center;
+  /* line-height: 50px; */
+}
+
+#text_0{
+  font-size: 50px ;
+  font-weight: bold;
+  line-height: 120px;
+}
+
+#text_1{
+  font-size: 20px;
+}
+
+.tv_animation{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tv_video{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+#tv__video{
+  width: 80%;
+  height: 80%;
+}
+
+.tv_image{
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+
+#tv__image{
+  width: 80%;
+  height: 80%;
+}
+
+
+
+.mobile_design{
+  display: flex;
+  background-color: black;
+  height: 500px;
+  margin-top: 10px;
+}
+
+.desktop_design{
+  display: flex;
+  background-color: black;
+  height: 500px;
+  margin-top: 10px;
+}
+
+.children_Profile{
+  display: flex;
+  background-color: black;
+  height: 500px;
+  margin-top: 10px;
+}
+
+.FAQ{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 900px;
+  margin-top: 10px;
+  padding-top: 30px;
+}
+
+.FAQ_headline{
+  width: 70%;
+}
+
+._faq{
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+#__FAQ{
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+.que{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  margin-top: 30px;
+  background-color: #2e2e2e;
+  margin: 10px;
+  height: 60px;
+  padding-right: 20px;
+}
+
+#plus{
+  font-size: 30px;
+}
+
+#questions{
+  font-size: 25px;
+}
